@@ -3,11 +3,10 @@ package Lesson6;
 public class Item {
 	
 	private String name;
-	private String weight;
+	private int weight;
 	
 	
-	public Item(String name, String weight) {
-		super();
+	public Item(String name, int weight) {
 		this.name = name;
 		this.weight = weight;
 	}
@@ -23,12 +22,12 @@ public class Item {
 	}
 
 
-	public String getWeight() {
+	public int getWeight() {
 		return weight;
 	}
 
 
-	public void setWeight(String weight) {
+	public void setWeight(int weight) {
 		this.weight = weight;
 	}	
 	
